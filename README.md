@@ -10,13 +10,18 @@ Rendering 3D objects using projection.
 A concise 3D rendering was done by using the equation below:
 
 $$
-x' = x / z \\
-y' = y / z
+\begin{aligned}
+x' &= x / z \\
+y' &= y / z
+\end{aligned}
 $$
 
 Coordinates for the torus was generated using the equation below:
+
 $$
-x = (R + r\cos\phi)\cos\theta \\
-y = (r\sin\phi) \\
-z = (R + r\cos\phi)\sin\theta
+\begin{aligned}
+x &= (R + r\cos(\phi)) \cdot \cos(\theta) \\
+y &= (r\sin(\phi)) \\
+z &= (R + r\cos(\phi)) \cdot \sin(\theta)
+\end{aligned}
 $$
