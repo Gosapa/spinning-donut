@@ -1,5 +1,12 @@
 # Simple 3D Rendering with Raylib
 
+Rendering 3D objects using projection.
+
+![Screenshot of spnning donut!](/assets/donut.png)
+
+
+## Methodology
+
 A concise 3D rendering was done by using the equation below:
 
 $$
