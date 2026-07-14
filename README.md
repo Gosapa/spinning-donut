@@ -2,7 +2,9 @@
 
 Rendering 3D objects using projection.
 
-![Screenshot of spnning donut!](/assets/donut.png)
+<div align="center">
+    <img src="assets/donut.gif" alt="donut rotating" width=400>
+</div>
 
 
 ## Methodology

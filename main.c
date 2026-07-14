@@ -63,7 +63,7 @@ int main() {
 
     float dz = 2.0f;
     size_t torusSize;
-    Projection *mybeautifuldonut = GenTorus(0.5f, 0.1f, 30, 10, &torusSize);
+    Projection *mybeautifuldonut = GenTorus(0.75f, 0.2f, 60, 20, &torusSize);
     for (int i = 0; i < torusSize; ++i) {
         RotateProjYZ(&mybeautifuldonut[i],PI/4.0f);
     }
